@@ -1,3 +1,5 @@
+{-# OPTIONS_GHC -Wno-overlapping-patterns #-}
+
 onlyLinux :: [Char] -> Bool
 onlyLinux s
   | s == "Linux" = True
