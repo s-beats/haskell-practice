@@ -16,9 +16,12 @@ drop' n (_ : xs) = drop' (n -1) xs
 reverse' [] = []
 reverse' (x : xs) = reverse' xs ++ [x]
 
+fact n = product' [1 .. n]
+
 main = do
   print $ sum' [10 .. 15]
   print $ product' [1 .. 5]
   print $ take' 3 [1, 2, 3, 4, 5]
   print $ drop' 1 [1, 2, 3]
   print $ reverse' [1 .. 10]
+  print $ fact 3
