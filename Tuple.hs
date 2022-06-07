@@ -5,6 +5,8 @@ main = do
   print a
   print b
   print c
+  print $ fst a
+  print $ snd a
   where
     a = divmod 4 2
     (b, c) = divmod 4 2
