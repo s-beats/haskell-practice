@@ -3,9 +3,9 @@ setup:
 	stack setup
 
 .PHONY: build
-build:
+build: setup
 	stack build
 
 .PHONY: exec
-exec:
+exec: build
 	stack exec WebServer-exe
