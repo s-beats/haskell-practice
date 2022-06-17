@@ -14,3 +14,5 @@ main = do
     (b, c) = divmod 4 2
     triple = (1, 2, 3)
     (t1, t2, _) = triple
+
+-- https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13115670548
