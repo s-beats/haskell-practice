@@ -5,6 +5,7 @@ main = do
   print $ fromEnum Windows
   print $ fromEnum Linux
   print $ fromEnum IOS
+  --   $ではなく()で囲む
   print (toEnum 0 :: OS)
   print (toEnum 1 :: OS)
   print (toEnum 2 :: OS)
